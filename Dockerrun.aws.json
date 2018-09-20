@@ -25,7 +25,7 @@
       "name": "php-app",
       "image": "715051035604.dkr.ecr.us-east-1.amazonaws.com/php-fpm",
       "essential": true,
-      "memoryReservation": 512,
+      "memoryReservation": 1024,
       "mountPoints": [
         {
           "sourceVolume": "application",
@@ -47,7 +47,7 @@
       "name": "nginx-proxy",
       "image": "715051035604.dkr.ecr.us-east-1.amazonaws.com/sandwitch",
       "essential": true,
-      "memory": 128,
+      "memory": 1024,
       "portMappings": [
         {
           "hostPort": 80,
