@@ -45,7 +45,7 @@
     },
     {
       "name": "nginx-proxy",
-      "image": "715051035604.dkr.ecr.us-east-1.amazonaws.com/sandwitch",
+      "image": "715051035604.dkr.ecr.us-east-1.amazonaws.com/nginx-sandwitch",
       "essential": true,
       "memory": 1024,
       "portMappings": [
